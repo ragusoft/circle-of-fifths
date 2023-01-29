@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="refresh" content="30"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="circle of fifths, circle-of-fifths, guitar chords, beginner guitar, chord fingering, printable, chord diagrams, major chords, minor chords, diminished chords, intervals, key signature, capo, music theory">
+  <meta name="descripton" content="Tool to aid beginner guitarists learning major, minor, and diminished chords across all keys, with and without a capo.">
+  <meta name="author" , content="Ragusoft Consulting">
+  <!-- <meta name="robots" content=""> -->
+  <!-- <base href="https://www.w3schools.com/" target="_blank"> -->
+
+  <link rel="stylesheet" href="css/styles.css?ver=179" />
+  <script type="text/javascript" src="js/app.js?ver=179" defer></script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="./images/favicon_io/site.webmanifest">
+
+  <title>Circle of Fifths | Guitar Chords</title>
+</head>
+
+<img src="./images/guitar-silhouette.svg" alt="" class="bg-image do-not-print" />
+
+<body>
+  <header>
+    <a class="print-link do-not-print" style="visibility: hidden">Print</a>
+    <h1>Circle of Fifths</h1>
+    <a class="print-link do-not-print" title="print screen" alt="print screen" onclick="window.print();" target="_blank">
+        Print</a
+      >
+    </header>
+
+    <div class="osd do-not-print">
+      <label>Screen Size: <span id="screen-size">NOT SET</span></label>
+      <label>Window Size: <span id="window-size">NOT SET</span></label>
+    </div>
+
+    <main>
+      <div class="freboard-view">
+        <h2>
+          Fundamental Chords in the Key of <span id="key-title"></span> Major
+        </h2>
+
+        <div class="fb-group">
+          <div class="fb-item">
+          </div>
+          <div id="dim-vii-box">
+            <div class="fb-header">
+              <span>vii°</span><span class="fb-chord"></span>
+            </div>
+            <div class="fb-canvas"><span class="capo"></span></div>
+          </div>
+          <div class="capo-controls fb-item">
+              <label for="capo-0"><input type="radio" id="capo-0" name="capo" value="0" checked> No Capo</label>
+              <label for="capo-1"><input type="radio" id="capo-1" name="capo" value="1"> Fret 1</label>
+              <label for="capo-2"><input type="radio" id="capo-2" name="capo" value="2"> Fret 2</label>
+              <label for="capo-3"><input type="radio" id="capo-3" name="capo" value="3"> Fret 3</label>
+              <label for="capo-4"><input type="radio" id="capo-4" name="capo" value="4"> Fret 4</label>
+          </div>
+          <!-- <fretboard-component id="dim-vii-box"></fretboard-component> -->
+        </div>
+
+        <div class="fb-group">
+          <div id="min-ii-box">
+            <div class="fb-header">
+              <span>ii</span><span class="fb-chord"></span>
+            </div>
+            <div class="fb-canvas"><span class="capo"></span></div>
+          </div>
+          <div id="min-vi-box">
+            <div class="fb-header">
+              <span>vi</span><span class="fb-chord"></span>
+            </div>
+            <div class="fb-canvas"><span class="capo"></span></div>
+          </div>
+          <div id="min-iii-box">
+            <div class="fb-header">
+              <span>iii</span><span class="fb-chord"></span>
+            </div>
+            <div class="fb-canvas"><span class="capo"></span></div>
+          </div>
+        </div>
+
+        <div class="fb-group">
+          <div id="maj-IV-box">
+            <div class="fb-header">
+              <span>IV</span><span class="fb-chord"></span>
+            </div>
+            <div class="fb-canvas"><span class="capo"></span></div>
+          </div>
+          <div id="maj-I-box">
+            <div class="fb-header">
+              <span>I</span><span class="fb-chord"></span>
+            </div>
+            <div class="fb-canvas"><span class="capo"></span></div>
+          </div>
+          <div id="maj-V-box">
+            <div class="fb-header">
+              <span>V</span><span class="fb-chord"></span>
+            </div>
+            <div class="fb-canvas"><span class="capo"></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div id="cof"></div>
+        <div id="key-signature"></div>
+      </div>
+    </main>
+
+    <!-- <footer style="position: fixed; bottom: 20px; left: 20px;">
+    <div>Icon made from <a style="color: palegoldenrod;" href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div>
+    </footer> -->
+
+    <footer>
+      <div class="do-not-print svg-credit">
+        Icon made from
+        <a style="color: palegoldenrod" href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0
+      </div>
+    </footer>
+
+</body>
+
+</html>
