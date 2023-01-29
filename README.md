@@ -7,3 +7,5 @@ The specific video: [The ONLY chords you NEED to know](https://www.youtube.com/w
 The app is deployed here:  [Circle-of-Fifths](https://ragusoft.github.io/circle-of-fifths/)
 
 Watch the video for more information.
+
+![Site Screenshot](./images/social-screenshot-01.png "Circle of Fifths | Guitar Chords - Screenshot")
