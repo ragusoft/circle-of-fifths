@@ -8,4 +8,4 @@ The app is deployed here:  [Circle-of-Fifths](https://ragusoft.github.io/circle-
 
 Watch the video for more information.
 
-![Site Screenshot](./images/social-screenshot-01.png "Circle of Fifths | Guitar Chords - Screenshot")
+![Site Screenshot](./images/social-screenshot-1020x652.png "Circle of Fifths | Guitar Chords - Screenshot")
